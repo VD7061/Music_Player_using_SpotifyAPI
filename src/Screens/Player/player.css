@@ -1,0 +1,15 @@
+.left_body{
+   width: 68%;
+   margin-right: 2%;
+   height: 100%;
+}
+
+.right_body{ 
+
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}

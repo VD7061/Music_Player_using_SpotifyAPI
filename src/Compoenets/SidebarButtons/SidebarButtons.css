@@ -1,0 +1,48 @@
+a {
+    text-decoration: none !important;
+}
+
+.btn_body {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px auto;
+
+     padding: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn_body:hover {
+    transform: scale(1.05);
+}
+
+.btn_body:active {
+    transform: scale(0.95);
+}
+
+.btn_title {
+    margin: 4px auto;
+    font-weight: 600;
+    color: #F4F5FC;
+    font-size: 0.7rem;
+    transition: color 0.3s ease;
+}
+
+.btn_icon {
+    color: #F4F5FC;
+    transition: color 0.3s ease;
+}
+
+.btn_body.active {
+    background-color: #24293E;    
+    transform: scale(1.1);
+}
+
+.btn_body.active .btn_title,
+.btn_body.active .btn_icon {
+    color: #00D1E8;
+}

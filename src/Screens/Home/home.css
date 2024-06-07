@@ -1,0 +1,11 @@
+
+/* bg-#040B1A , accent-#00D1E8 , text-#F4F5FC ,  Secondary- #061022 */
+
+.main_body{
+  height: 100vh;
+  width: 100vw;
+  background-color: #040B1A;
+  display: flex;
+
+}
+

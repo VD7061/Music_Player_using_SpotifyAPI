@@ -1,0 +1,135 @@
+
+
+  .playlist_card3 {
+    width: 15%;
+    height: 36%;
+    border-radius: 10px;
+    border: 1px solid rgba(48, 47, 47, 0.3); 
+    background: rgba(0, 81, 255, 0.13); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(100px); 
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 0.5%;
+    margin-bottom: 2%;
+  }
+  
+  .playlist_card3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .playlist_image3 {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    aspect-ratio: 1;
+  }
+  
+  .playlist_subtitle3 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #69696b;
+    margin: 0px;
+  }
+  
+  .playlist_title3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #F4F5FC;
+    margin: 5px 0px 0px;
+  }
+  
+  .playlist_playbtn3 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.5s;
+  }
+  
+  .playlist_card3:hover .playlist_playbtn3 {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  @media (max-width: 768px) {
+    .playlist_card {
+      width: 30%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .playlist_card {
+      width: 45%;
+    }
+  }
+  
+
+  .playlist_card2 {
+    width: 15%;
+    height: 40%;
+    border-radius: 10px;
+    border: 1px solid rgba(48, 47, 47, 0.3); 
+    background: rgba(0, 81, 255, 0.13); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(100px); 
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 1%;
+    ;
+  }
+  
+  .playlist_card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .playlist_image2 {
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 2%;
+    aspect-ratio: 1;
+  }
+  
+  .playlist_subtitle2 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #69696b;
+    margin: 0px;
+  }
+  
+  .playlist_title2 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #F4F5FC;
+    margin: 5px 0px 0px;
+  }
+  
+  .playlist_playbtn2 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.5s;
+  }
+  
+  .playlist_card:hover2 .playlist_playbtn2 {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  @media (max-width: 768px) {
+    .playlist_card2 {
+      width: 30%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .playlist_card2 {
+      width: 45%;
+    }
+  }
+  

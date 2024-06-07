@@ -1,0 +1,36 @@
+@import url(../src//Shared/globalstyle.css);
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+ 
+}
+
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 20px;
+}
+
+
+
+::-webkit-scrollbar-track {
+  background: #00D1E8;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #24293E;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #24293E;
+}

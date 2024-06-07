@@ -1,0 +1,73 @@
+.soundCard_body {
+    padding: 10px;
+    width: 100%;
+    background: rgba(3, 20, 56, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 60%;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .albumImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .albumImage img {
+    border-radius: 40px;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  
+  .albumInfo-card {
+    text-align: left;
+    margin: 0 auto;
+    color: #f4f5fc;
+    width: 90%;
+  }
+  
+  .albumImage-shadow {
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    width: 90%;
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+  }
+  
+  .marquee {
+    overflow: hidden;
+  }
+  
+  .marquee-text {
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .albumName-container {
+    overflow: hidden;
+  }
+  

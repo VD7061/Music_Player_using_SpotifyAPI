@@ -1,0 +1,94 @@
+  .library_Body {
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: flex-start;
+    gap: 2%;
+  
+  }
+
+  .Header{
+    width: 70%;
+    margin-left: 1%;
+    margin-top: 1%;
+    color: #F4F5FC;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 20px;
+  }
+
+  .playlist_card {
+    width: 18%;
+    height: 46%;
+    border-radius: 10px;
+    border: 1px solid rgba(48, 47, 47, 0.3); 
+    background: rgba(0, 81, 255, 0.13); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(100px); 
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 0.5%;
+    margin-bottom: 2%;
+    
+  }
+
+  .playlist_card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+
+  .playlist_image{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    aspect-ratio: 1;
+  }
+
+  .playlist_subtitle{
+
+    font-weight: 600;
+    font-size: 14px;
+    color:#69696b ;
+    margin:  0px;
+    
+  }
+
+  .playlist_title{
+    
+    font-weight: 600;
+    font-size: 18px;
+    color:#F4F5FC ;
+    margin: 5px 0px 0px;
+  }
+
+  /* .palylist_playbtn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+  } */
+
+  .palylist_playbtn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.5s;
+  }
+
+  .playlist_card:hover .palylist_playbtn {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+
+  
