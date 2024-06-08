@@ -36,12 +36,12 @@ Enjoy exploring and listening to your favorite music with the Music Player! If y
 # Video Demo & Screenshot
 https://github.com/VD7061/Music_Player_using_SpotifyAPI/assets/109384166/2aafdce7-c715-4617-ada8-24b03581842e
 
-# ..................................................................................................................
+# 
 
 ![Screenshot 2024-06-08 001753](https://github.com/VD7061/Music_Player_using_SpotifyAPI/assets/109384166/04f5310f-b90e-43bf-8e89-fe6ca4c48d5d)
-# ..................................................................................................................
+# 
 ![Screenshot 2024-06-08 001732](https://github.com/VD7061/Music_Player_using_SpotifyAPI/assets/109384166/1bdd3528-38d8-4ef2-b737-ddcf01726b44)
-# ..................................................................................................................
+# 
 ![Screenshot 2024-06-08 000432](https://github.com/VD7061/Music_Player_using_SpotifyAPI/assets/109384166/962b1fe2-808b-4871-9dc8-79d1ae5d0057)
 
 
