@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize?"
-const CLIENT_ID= "e175af4851574e0f856c3504fbb41c78";
+const CLIENT_ID= ""; //YOU WILL NEED YOUR OWN CLIEND ID WHICH U CAN GET IT FROM THE SPOTIFY API
 const REDIRECT_URI ="http://localhost:5173/";
 const SCOPES = ["user-library-read", "user-read-private"];
 
